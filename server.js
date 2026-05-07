@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 const methodOverride = require('method-override');
 const cors = require('cors');
 const corsOptions = {
-    origin: ['http://localhost:3000'], //allowed origins
+    origin: ['http://localhost:4200'], //allowed origins
     methods: 'GET,HEAD,POST,PATCH,PUT,DELETE',
     credentials: true,
     allowedHeaders: ['Content-Type', 'Authorization']
